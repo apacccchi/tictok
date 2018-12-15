@@ -1,0 +1,290 @@
+************************************* Invoked: Пт Гру 14 20:32:21 2018
+[0] Arguments: C:\Users\Vlad Tarasenko\Downloads\InstallSQLiteStudio-3.2.1.exe
+[20] Operations sanity check succeeded.
+[885] Loaded control script ":/metadata/installer-config/controller_qs.qs"
+[885] Using control script: ":/metadata/installer-config/controller_qs.qs"
+[898] Control script callback "IntroductionPageCallback" does not exist.
+[3858] Warning: :20: TypeError: Cannot call method 'connect' of undefined (:20, )
+[3871] Control script callback "TargetDirectoryPageCallback" does not exist.
+[27107] Created warning message box "OverwriteTargetDirectory": "Предупреждение", "Каталог, выбранный для установки приложения, уже содержит файлы.\nОн будет стёрт вместе со всем содержимым при удалении приложения.\nПроизводить установку в этот каталог не рекомендуется, так как не исключён сбой.\nПродолжить?"
+[42540] Control script callback "ComponentSelectionPageCallback" does not exist.
+[46004] Tmp and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "52.33 ГБ"
+[46004] Installation space required: "47.66 МБ" Temporary space required: "0.00 байт(ов)" Local repository size: "0.00 байт(ов)"
+[46004] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[47312] Control script callback "PerformInstallationPageCallback" does not exist.
+[47341] backup  operation: Mkdir
+[47341] 	- arguments: C:/Users/Vlad Tarasenko/Desktop/курсачи 375/TicTacToe2
+[47341] Done
+[47342] perform  operation: Mkdir
+[47342] 	- arguments: C:/Users/Vlad Tarasenko/Desktop/курсачи 375/TicTacToe2
+[47342] Done
+[47342] Install size: 22 components
+[47410] backup io.qt operation: Extract
+[47410] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[47410] Done
+[47411] perform io.qt operation: Extract
+[47411] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48313] Done
+[48315] backup pl.com.salsoft.sqlitestudio operation: Extract
+[48315] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48315] Done
+[48316] perform pl.com.salsoft.sqlitestudio operation: Extract
+[48316] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48681] Done
+[48681] backup pl.com.salsoft.sqlitestudio operation: CreateShortcut
+[48681] 	- arguments: C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe, C:\Users\Vlad Tarasenko\AppData\Roaming\Microsoft\Windows\Start Menu\Programs/SQLiteStudio/SQLiteStudio.lnk, workingDirectory=C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2, iconPath=C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe, iconId=0, description=SQLiteStudio
+[48682] Done
+[48682] perform pl.com.salsoft.sqlitestudio operation: CreateShortcut
+[48682] 	- arguments: C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe, C:\Users\Vlad Tarasenko\AppData\Roaming\Microsoft\Windows\Start Menu\Programs/SQLiteStudio/SQLiteStudio.lnk
+[48835] Done
+[48835] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48835] 	- arguments: db, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db
+[48835] Done
+[48835] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48835] 	- arguments: db, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db
+[48839] Done
+[48839] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48839] 	- arguments: db3, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db3
+[48839] Done
+[48839] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48839] 	- arguments: db3, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db3
+[48842] Done
+[48843] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48843] 	- arguments: sqlite, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite
+[48843] Done
+[48843] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48843] 	- arguments: sqlite, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite
+[48846] Done
+[48846] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48846] 	- arguments: sqlite3, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite3
+[48846] Done
+[48846] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48846] 	- arguments: sqlite3, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite3
+[48850] Done
+[48850] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48850] 	- arguments: sdb, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sdb
+[48850] Done
+[48850] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48850] 	- arguments: sdb, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sdb
+[48854] Done
+[48854] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48854] 	- arguments: s3db, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.s3db
+[48854] Done
+[48854] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[48854] 	- arguments: s3db, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2/SQLiteStudio.exe,0, ProgId=SQLiteStudio.s3db
+[48858] Done
+[48863] backup pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[48863] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48863] Done
+[48863] perform pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[48863] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48881] Done
+[48883] backup pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[48883] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48883] Done
+[48883] perform pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[48883] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48888] Done
+[48890] backup pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[48890] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48890] Done
+[48890] perform pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[48890] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48896] Done
+[48898] backup pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[48898] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48898] Done
+[48898] perform pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[48898] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48908] Done
+[48910] backup pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[48910] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48910] Done
+[48910] perform pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[48910] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48918] Done
+[48920] backup pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[48920] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48920] Done
+[48920] perform pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[48920] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48925] Done
+[48927] backup pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[48927] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48927] Done
+[48927] perform pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[48927] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48934] Done
+[48936] backup pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[48936] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48936] Done
+[48936] perform pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[48936] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48944] Done
+[48947] backup pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[48947] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48947] Done
+[48947] perform pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[48947] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48952] Done
+[48954] backup pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[48955] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48955] Done
+[48955] perform pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[48955] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48961] Done
+[48964] backup pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[48964] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48964] Done
+[48964] perform pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[48965] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48977] Done
+[48980] backup pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[48980] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48980] Done
+[48980] perform pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[48980] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48987] Done
+[48991] backup pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[48991] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48991] Done
+[48991] perform pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[48991] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48997] Done
+[48999] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[48999] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[48999] Done
+[49000] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[49000] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49039] Done
+[49042] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[49042] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49042] Done
+[49042] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[49042] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49061] Done
+[49064] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[49064] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49064] Done
+[49064] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[49064] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49105] Done
+[49108] backup pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[49108] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49108] Done
+[49108] perform pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[49108] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49163] Done
+[49166] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[49166] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49166] Done
+[49166] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[49166] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49213] Done
+[49216] backup pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[49216] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49216] Done
+[49216] perform pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[49216] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\Users\Vlad Tarasenko\Desktop\курсачи 375\TicTacToe2
+[49223] Done
+[49235] Writing maintenance tool: "C:\\Users\\Vlad Tarasenko\\Desktop\\курсачи 375\\TicTacToe2/UpdateSQLiteStudio.exe.new"
+[49421] Wrote permissions for maintenance tool.
+[49763] Maintenance tool restart: false.
+[49772] Warning: QString::arg: Argument missing: Run SQLiteStudio, SQLiteStudio
+[49772] Control script callback "FinishedPageCallback" does not exist.
+************************************* Invoked: Пт Гру 14 20:51:12 2018
+[0] Operations sanity check succeeded.
+[2968] addDownloadable "PdfExport.7z"
+[2968] addDownloadable "MultiEditorImage.7z"
+[2968] addDownloadable "CsvImport.7z"
+[2968] addDownloadable "SqlFormatterSimple.7z"
+[2968] addDownloadable "CsvExport.7z"
+[2968] addDownloadable "SqlExport.7z"
+[2968] addDownloadable "DbSqliteCipher.7z"
+[2968] addDownloadable "ConfigMigration.7z"
+[2968] addDownloadable "DbSqliteWx.7z"
+[2968] addDownloadable "DbSqliteSystemData.7z"
+[2968] addDownloadable "RegExpImport.7z"
+[2968] addDownloadable "HtmlExport.7z"
+[2968] addDownloadable "DbAndroid.7z"
+[2968] addDownloadable "sqlitestudio.7z"
+[2968] addDownloadable "Printing.7z"
+[2968] addDownloadable "ScriptingTcl.7z"
+[2969] addDownloadable "qt.7z"
+[2969] addDownloadable "JsonExport.7z"
+[2969] addDownloadable "DbSqlite2.7z"
+[2969] addDownloadable "XmlExport.7z"
+[2969] addDownloadable "SqlEnterpriseFormatter.7z"
+************************************* Invoked: Пт Гру 14 21:59:20 2018
+[0] Operations sanity check succeeded.
+[1347] addDownloadable "HtmlExport.7z"
+[1347] addDownloadable "DbSqliteWx.7z"
+[1347] addDownloadable "qt.7z"
+[1347] addDownloadable "CsvImport.7z"
+[1347] addDownloadable "DbAndroid.7z"
+[1347] addDownloadable "DbSqliteSystemData.7z"
+[1348] addDownloadable "SqlExport.7z"
+[1348] addDownloadable "sqlitestudio.7z"
+[1348] addDownloadable "Printing.7z"
+[1348] addDownloadable "CsvExport.7z"
+[1348] addDownloadable "RegExpImport.7z"
+[1348] addDownloadable "PdfExport.7z"
+[1348] addDownloadable "ScriptingTcl.7z"
+[1348] addDownloadable "DbSqliteCipher.7z"
+[1348] addDownloadable "SqlEnterpriseFormatter.7z"
+[1349] addDownloadable "SqlFormatterSimple.7z"
+[1349] addDownloadable "JsonExport.7z"
+[1349] addDownloadable "DbSqlite2.7z"
+[1349] addDownloadable "XmlExport.7z"
+[1349] addDownloadable "ConfigMigration.7z"
+[1349] addDownloadable "MultiEditorImage.7z"
+************************************* Invoked: сб дек. 15 00:41:34 2018
+[0] Operations sanity check succeeded.
+[110] Network error while downloading 'http://sqlitestudio.pl/update-repo/windows//Updates.xml?564897424': Host sqlitestudio.pl not found.
+[113] Cannot retrieve remote tree No package sources set for this application..
+************************************* Invoked: сб дек. 15 09:10:16 2018
+[0] Operations sanity check succeeded.
+[2405] addDownloadable "CsvExport.7z"
+[2405] addDownloadable "DbSqlite2.7z"
+[2405] addDownloadable "RegExpImport.7z"
+[2405] addDownloadable "qt.7z"
+[2405] addDownloadable "ScriptingTcl.7z"
+[2405] addDownloadable "DbAndroid.7z"
+[2405] addDownloadable "XmlExport.7z"
+[2405] addDownloadable "DbSqliteWx.7z"
+[2405] addDownloadable "SqlExport.7z"
+[2405] addDownloadable "SqlFormatterSimple.7z"
+[2405] addDownloadable "MultiEditorImage.7z"
+[2405] addDownloadable "HtmlExport.7z"
+[2405] addDownloadable "SqlEnterpriseFormatter.7z"
+[2406] addDownloadable "JsonExport.7z"
+[2406] addDownloadable "PdfExport.7z"
+[2406] addDownloadable "DbSqliteCipher.7z"
+[2406] addDownloadable "sqlitestudio.7z"
+[2406] addDownloadable "CsvImport.7z"
+[2406] addDownloadable "Printing.7z"
+[2406] addDownloadable "DbSqliteSystemData.7z"
+[2406] addDownloadable "ConfigMigration.7z"
+************************************* Invoked: сб дек. 15 09:11:31 2018
+[0] Operations sanity check succeeded.
+[601] addDownloadable "Printing.7z"
+[601] addDownloadable "PdfExport.7z"
+[601] addDownloadable "SqlEnterpriseFormatter.7z"
+[601] addDownloadable "sqlitestudio.7z"
+[601] addDownloadable "DbSqliteWx.7z"
+[601] addDownloadable "SqlExport.7z"
+[601] addDownloadable "ScriptingTcl.7z"
+[601] addDownloadable "CsvExport.7z"
+[601] addDownloadable "HtmlExport.7z"
+[601] addDownloadable "ConfigMigration.7z"
+[601] addDownloadable "MultiEditorImage.7z"
+[601] addDownloadable "qt.7z"
+[602] addDownloadable "DbSqliteCipher.7z"
+[602] addDownloadable "JsonExport.7z"
+[602] addDownloadable "DbSqliteSystemData.7z"
+[602] addDownloadable "DbSqlite2.7z"
+[602] addDownloadable "XmlExport.7z"
+[602] addDownloadable "DbAndroid.7z"
+[602] addDownloadable "CsvImport.7z"
+[602] addDownloadable "RegExpImport.7z"
+[602] addDownloadable "SqlFormatterSimple.7z"
